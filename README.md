@@ -3,11 +3,15 @@
 ## Project
 Recreate the grid section of the tamusa.edu homepage. A local css file and the bootstrap4 css file as well as the images are included in the repository. You will also have to link to the the Google font family Oswald to have the same font as the homepage, you can simply google 'add oswald font' and the second entry should show you the link you need to add to your index.html head.
 
-If you review the local css file, all of the colors and styles are already loaded, you will just need to call the correct class attribute inside of your html tags. Images are names as row by column (i.e. 1x1, 1x3, 2x2, etc.) which is their orginal placement within the grid.
+![](https://i.imgur.com/Gi2Ifdb.jpg)
 
+If you review the local css file, all of the colors and styles are already loaded, you will just need to call the correct class attribute inside of your html tags. Images are names as row by column (i.e. 1x1, 1x3, 2x2, etc.) which is their orginal placement within the grid. The pattern-black-background.png is the background for all other sections.
 
+Based on the above image, we know that we will need 4 rows and 4 columns (remember that in the Bootstrap4 grid system, there are 12 columns in each row.) you will have to do some basic math to figure out which column type you should use. 
 
+Use inline styling to give the column sections with images an image. Use attribute classes from the local style sheet to style your html tags an additional Bootstrap4 class attribute may also be used 'text-center'. The text in the alternating column sections is created with h2 and p tags.
 
+Download the contents of this repository, open the unzipped folder with VSC, create your index.html file, link your styles and 'Good Luck'!
 
 ## About
 Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular front-end frameworks and open source projects in the world.
