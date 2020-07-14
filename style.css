@@ -70,6 +70,15 @@ p {
     background-color:  #668586 !important;
 }
 
+.orange {
+    color: #ffffff !important;
+    background-color:  #b45b2c !important;
+}
+
+.brown {
+    color: #ffffff !important;
+    background-color:  #70572e !important;
+}
 
 .text-black, .hover-text-black:hover {
     color: #030000 !important;
