@@ -11,7 +11,7 @@ Based on the above image, we know that we will need 4 rows and 4 columns (rememb
 
 Use inline styling to give the column sections with images an image. Use attribute classes from the local style sheet to style your html tags an additional Bootstrap4 class attribute may also be used 'text-center'. The text in the alternating column sections is created with h2 and p tags.
 
-Download the contents of this repository, open the unzipped folder with VSC, create your index.html file, link your styles and 'Good Luck'!
+**Download the contents of this repository, open the unzipped folder with VSC, create your index.html file, link your styles and 'Good Luck'!**
 
 ## About
 Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular front-end frameworks and open source projects in the world.
