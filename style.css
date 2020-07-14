@@ -27,6 +27,14 @@ p {
     height: 20em;
 }
 
+.text:hover {
+    background-image: url(./assets/images/pattern-black-background.png) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 20em;
+}
 
 /* Colors */
 
