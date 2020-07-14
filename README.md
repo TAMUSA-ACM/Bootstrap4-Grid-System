@@ -1,5 +1,14 @@
 # Bootstrap4-Grid-System
 
+## Project
+Recreate the grid section of the tamusa.edu homepage. A local css file and the bootstrap4 css file as well as the images are included in the repository. You will also have to link to the the Google font family Oswald to have the same font as the homepage, you can simply google 'add oswald font' and the second entry should show you the link you need to add to your index.html head.
+
+If you review the local css file, all of the colors and styles are already loaded, you will just need to call the correct class attribute inside of your html tags. Images are names as row by column (i.e. 1x1, 1x3, 2x2, etc.) which is their orginal placement within the grid.
+
+
+
+
+
 ## About
 Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular front-end frameworks and open source projects in the world.
 
