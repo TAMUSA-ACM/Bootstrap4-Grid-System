@@ -1,117 +1,36 @@
 # Bootstrap4-Grid-System
 
-## Project
-Recreate the grid section of the tamusa.edu homepage. A local css file and the bootstrap4 css file as well as the images are included in the repository. You will also have to link to the the Google font family Oswald to have the same font as the homepage, you can simply google 'add oswald font' and the second entry should show you the link you need to add to your index.html head.
+## Project Overview
+Bootstrap4-Grid-System is a repository that serves as a practical exercise in recreating the grid section of the tamusa.edu homepage using Bootstrap 4. This project is complete with local CSS, images, and integration with Google Fonts. This project is ideal for those who are learning and want to master responsive web design and styling with Bootstrap’s grid system. 
 
-![](https://i.imgur.com/Gi2Ifdb.jpg)
+## Setup and Installation
+To get started with this project, follow the instructions below:
 
-If you review the local css file, all of the colors and styles are already loaded, you will just need to call the correct class attribute inside of your html tags. Images are names as row by column (i.e. 1x1, 1x3, 2x2, etc.) which is their orginal placement within the grid. The pattern-black-background.png is the background for all other sections.
+1. Clone the repository to your local machine using the following command:
+```
+git clone https://github.com/<your-github-username>/Bootstrap4-Grid-System.git
+```
+2. Navigate to the project directory:
+```
+cd Bootstrap4-Grid-System
+```
+3. Open the project in your favorite code editor and start working.
 
-Based on the above image, we know that we will need 4 rows and 4 columns (remember that in the Bootstrap4 grid system, there are 12 columns in each row.) you will have to do some basic math to figure out which column type you should use. 
+### Dependencies
+This project uses Bootstrap 4 and Google Fonts. Ensure you have an active internet connection to load these resources, or download them for offline use.
 
-Use inline styling to give the column sections with images an image. Use attribute classes from the local style sheet to style your html tags an additional Bootstrap4 class attribute may also be used 'text-center'. The text in the alternating column sections is created with h2 and p tags.
+## Usage Examples
+This project is a replica of the grid section of the tamusa.edu homepage. You can use it to understand how to structure a webpage using Bootstrap's grid system, style it with CSS, and integrate Google Fonts. It's a great starting point for creating your own responsive web designs.
 
-**Download the contents of this repository, open the unzipped folder with VSC, create your index.html file, link your styles and 'Good Luck'!**
+## Contribution Guidelines
+We welcome contributions from the community. If you'd like to contribute, please follow these steps:
 
-## About
-Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular front-end frameworks and open source projects in the world.
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes in your branch.
+4. Submit a pull request with a detailed explanation of your changes.
 
-Bootstrap was created at Twitter in mid-2010 by @mdo and @fat. Prior to being an open-sourced framework, Bootstrap was known as Twitter Blueprint. A few months into development, Twitter held its first Hack Week and the project exploded as developers of all skill levels jumped in without any external guidance. It served as the style guide for internal tools development at the company for over a year before its public release, and continues to do so today.
+Please ensure your code follows the existing style for consistency.
 
-Originally released on August 19, 2011, we’ve since had over twenty releases, including two major rewrites with v2 and v3. With Bootstrap 2, we added responsive functionality to the entire framework as an optional stylesheet. Building on that with Bootstrap 3, we rewrote the library once more to make it responsive by default with a mobile first approach.
-
-With Bootstrap 4, we once again rewrote the project to account for two key architectural changes: a migration to Sass and the move to CSS’s flexbox. Our intention is to help in a small way to move the web development community forward by pushing for newer CSS properties, fewer dependencies, and new technologies across more modern browsers.
-
----
-
-## Getting Started
-Bootstrap 4 requires you to import parts of their framework into your project. There are four necessary parts if you were to run all layout, content, components, and utilities within Bootstrap. 
-
-* Bootstrap.css
-* Bootstrap.js
-* jQuery
-* Popper.js
-
-However, it is flexible enough that you can only include the parts that you intend to use instead of the entire project. And these components are the only pieces that require JavaScript (at least bootstrap.js and jQuery):
-
-* **Alerts** for dismissing
-* **Buttons** for toggling states and checkbox/radio functionality
-* **Carousel** for all slide behaviors, controls, and indicators
-* **Collapse** for toggling visibility of content
-* **Dropdowns** for displaying and positioning (also requires Popper.js)
-* **Modals** for displaying, positioning, and scroll behavior
-* **Navbar** for extending our Collapse plugin to implement responsive behavior
-* **Tooltips** and popovers for displaying and positioning (also requires Popper.js)
-* **Scrollspy** for scroll behavior and navigation updates
-
-You are able to download the sheets and add them to your project, link to the sheets via Content Delivery Network (CDN), or use a package version.
-
----
-
-## Layout
-Components and options for laying out your Bootstrap project, including wrapping containers, a powerful grid system, a flexible media object, and ***responsive*** utility classes.
-
-### Grid
-Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes.
-
-![](https://i.imgur.com/ShHuW5y.png)
-
-Breaking it down, here’s how it works:
-
-* **Containers** provide a means to center and horizontally pad your site’s contents. Use .container for a responsive pixel width or .container-fluid for width: 100% across all viewport and device sizes.
-* **Rows** are wrappers for columns. Each column has horizontal padding (called a gutter) for controlling the space between them. This padding is then counteracted on the rows with negative margins. This way, all the content in your columns is visually aligned down the left side.
-* ***In a grid layout, content must be placed within columns and only columns may be immediate children of rows.***
-* Thanks to flexbox, grid columns without a specified width will automatically layout as equal width columns. For example, four instances of .col-sm will each automatically be 25% wide from the small breakpoint and up. See the auto-layout columns section for more examples.
-* **Column classes** indicate the number of columns you’d like to use out of the possible 12 per row. So, if you want three equal-width columns across, you can use .col-4.
-* **Column widths** are set in percentages, so they’re always fluid and sized relative to their parent element.
-* Columns have horizontal padding to create the gutters between individual columns, however, you can remove the margin from rows and padding from columns with .no-gutters on the .row.
-* To make the grid ***responsive***, there are ***five grid breakpoints***, one for each responsive breakpoint: all breakpoints (extra small), small, medium, large, and extra large.
-* ***Grid breakpoints*** are based on minimum width media queries, meaning they apply to that one breakpoint and all those above it (e.g., .col-sm-4 applies to small, medium, large, and extra large devices, but not the first xs breakpoint).
-* You can use predefined grid classes (like .col-4) or Sass mixins for more semantic markup.
-
-Be aware of the limitations and bugs around flexbox, like the inability to use some HTML elements as flex containers.
-
-### Grid options
-
-While Bootstrap uses ems or rems for defining most sizes, pxs are used for grid breakpoints and container widths. This is because the viewport width is in pixels and does not change with the font size.
-
-See how aspects of the Bootstrap grid system work across multiple devices with a handy table.
-
-<table>
-    <tr>
-        <td></td>
-        <td><p style="text-align: center;"><b>Extra Small</b></p><p style="text-align: center;">&lt;576px</p></td>
-        <td><p style="text-align: center;"><b>Small</b></p><p style="text-align: center;">≥576px</p></td>
-        <td><p style="text-align: center;"><b>Medium</b></p><p style="text-align: center;">≥768px</p></td>
-        <td><p style="text-align: center;"><b>Large</b></p><p style="text-align: center;">≥992px</p></td>
-        <td><p style="text-align: center;"><b>Extra Large</b></p><p style="text-align: center;">≥1200px</p></td>
-    </tr>
-    <tr>
-        <th>Max container width</th>
-        <td style="text-align: center;">None (auto)</td>
-        <td style="text-align: center;">540px</td>
-        <td style="text-align: center;">720px</td>
-        <td style="text-align: center;">960px</td>
-        <td style="text-align: center;">1140px</td>
-    </tr>
-    <tr>
-        <th>Class prefix</th>
-        <td style="text-align: center;">.col-</td>
-        <td style="text-align: center;">.col-sm-</td>
-        <td style="text-align: center;">.col-md-</td>
-        <td style="text-align: center;">.col-lg-</td>
-        <td style="text-align: center;">.col-xl-</td>
-    </tr>
-    <tr>
-        <th>Gutter width</th>
-        <td colspan=5 >12</td>
-    </tr>
-    <tr>
-        <th>Nestable</th>
-        <td colspan=5>Yes</td>
-    </tr>
-    <tr>
-        <th>Column ordering</th>
-        <td colspan=5>Yes</td>
-    </tr>
-</table>
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
